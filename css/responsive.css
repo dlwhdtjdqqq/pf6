@@ -1,0 +1,182 @@
+@media screen and (max-width:1140px){
+  /*header영역(시작)*/
+  header{
+  width:100% !important;
+  padding:0 10px 0 10px;
+  height:48px;
+  box-sizing:border-box;
+  background-color:lightcoral;
+  border-bottom: 1px solid #8f8884;
+  }
+  header .wrap{
+  height:100% !important;
+  width:100% !important;
+  }
+  header .wrap .Enb{
+  width:100% !important;
+  height:100% !important;
+  position: absolute;
+  }
+  header .wrap .Enb h1.h3{
+  width:99px;
+  }
+  header .wrap .Enb h1.h3 a{
+  width:149px;
+  height:29px;
+  right:170px;
+  top:10px;
+  background:transparent url(../img/tlstprp1.png) 0 center no-repeat;
+  background-size:cover;
+  }
+  header .wrap .Enb h1.h3 a::before{
+  content:""; 
+  width:18px;
+  height:18px;
+  position:absolute;
+  background:transparent url(../img/menu.png) 0 0 no-repeat;
+  background-size:cover;
+  left:calc(100% + 130px);
+  top:5px;
+  }
+  header .wrap .Enb .enb{
+  height:46px;
+  top:48px;
+  width:100% !important;
+  right:10px;
+  padding:0px 10px;
+  box-sizing:border-box;
+  position:absolute;
+  justify-content:start;
+  border-bottom: 1px solid #8f8884;
+  background-color: black;
+  }
+  header .wrap .Enb .enb li{
+  height:45px;
+  width:47.5px;
+  margin:0 10px;
+  }
+  header .wrap .Enb .enb li:nth-of-type(5){
+  height:45px;
+  width:58.5px;
+  margin:0 10px;
+  }
+  header .wrap .Enb .enb li .a1{
+  display:flex;
+  font-size:13px;
+  height:100% !important;
+  width:47.5px;
+  align-items:center;
+  color:white;
+  }
+  header .wrap .Enb .enb li .a1:hover{ 
+  color: white;
+  }
+  div.wsub{
+
+  }
+  /*header영역(종결)*/
+  /*title영역(시작)*/
+  #title{
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 460px;
+  height: 495px;
+  }
+  #title .wrap{
+  width: 100% !important;
+  height: 100% !important;
+  }
+  #title .wrap .enb .h2{
+    
+  font-size: inherit;
+  text-align: center;
+  }
+  #title .wrap .enb .h5{
+    
+  font-size: inherit;
+  width: 15px;
+  top: 246px;
+  left: 61.5%;
+  }
+  #title .wrap .enb .p1{
+    
+  font-size: inherit;
+  text-align: center;
+  }
+  #title .wrap .enb .p2{
+  text-align: center;
+  font-size: inherit;
+  }
+  #title .wrap > .enb > a{    
+  left: 38%;
+  }
+  #title .wrap > .a2{
+    
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  }
+  #title .wrap > .a2:nth-of-type(1){
+    
+  top: 53px;
+  z-index: 11;
+  right: 50px;
+  }
+  #title .wrap > .a2:nth-of-type(2){
+    
+  top: 53px;
+  right: 5px;
+  z-index: 11;
+  }
+  /*title영역(종결)*/
+  /*main-firepower영역(시작)*/
+  #firepower{    
+  width: 460px;
+  height: 594px;
+  }
+  #firepower .wrap > .fire0{  
+  width:460px;
+  height:100% !important;
+  display:inline-table;
+  }
+  #firepower .wrap > .fire0 > .fire{    
+  width:auto;
+  height:calc(100% / 3);
+  }
+  /*main-firepower영역(종결)*/
+  /*main-gallery영역(시작)*/
+  #gallery{
+    
+  width: 460px;
+  }
+  /*main-gallery영역(종결)*/
+  /*footer영역(시작)*/
+  footer{   
+  width: 100% !important;
+  height: 203px;
+  }
+  footer .wrap{    
+  width:460px !important;
+  height:100%;
+  }
+  footer .wrap .enb h1.h3 > span{    
+  }
+  footer .wrap .gnb{
+  font-size: x-small;
+  }
+  footer .wrap .gnb address{
+    
+  line-height: 20px;
+  }
+  footer .wrap .gnb address p:nth-child(2){
+    
+  line-height: 33px;
+  }
+  footer .wrap .gnb address a.a{
+  top: 38px;
+  right: 180px;
+  }
+  /*footer영역(종결)*/ 
+}

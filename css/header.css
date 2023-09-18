@@ -1,0 +1,204 @@
+header {
+  width:100%;
+  height:130px;
+  position:fixed;
+  background-color:white;
+  border-bottom:1px solid #ccc;
+  box-sizing:border-box;
+  z-index:10;
+}
+header>div.wrap {
+  width:100%;
+  height:130px;
+}
+header div.wrap nav.top1 {
+  width:100%;
+  border-bottom:1px solid #ccc;
+  height:50px;
+  box-sizing:border-box;
+  line-height:3;
+}
+header div.wrap nav.top1 div{
+  width:1400px;
+  height:50px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+header div.wrap nav.top1 div .co{
+}
+header div.wrap nav.top1 div .p{
+  line-height:48px;
+  color:rgba(0, 0, 0, 0.78);
+}
+header div.wrap nav.top1 .p1{
+  transform:translateX(-256px);
+  font-size:0;
+  width:147px;
+  height:22px;
+  padding-top:13px;
+}
+header div.wrap nav.top1 .p1::before{
+  content:"";
+  width:137px;
+  height:38px;
+  position:absolute;
+  transform:translateY(-6px);
+  background-image:url(../img/so.svg);
+  background-repeat:no-repeat;
+}
+header div.wrap nav.top1 div .p>img{
+  transform:translateY(3px);
+}
+header div.wrap nav.top1 div span{
+  transform:translateX(-160px);
+}
+header div.wrap nav.top1 div span>img{
+  
+}
+header div.wrap nav.top1 .enb {
+  display:flex;
+  gap:10px;
+}
+header div.wrap nav.top1 .enb p.p {
+}
+header div.wrap nav.top1 .enb li:nth-of-type(4){
+  background: url(http://www.nfa.go.kr/nfa/common/img/2021051114110087581.jpg) no-repeat;
+  width:100px;
+  height:35px;
+  font-size:0;
+  vertical-align:top;
+  margin-top:8px;
+}
+
+header div.wrap nav.top1 .enb li a {
+  padding-left:10px;
+  height:100%;
+  display:block;
+  color:#7a7a7a;
+  font-weight:bold;
+}
+ 
+header div.wrap nav.top2 {
+  width:1400px;
+  margin:0 auto;
+  height:80px;
+  position:relative;
+  display:flex;
+  line-height:4.5;
+  justify-content: space-between;
+}
+header div.wrap nav.top2 h1 {
+  margin:15px 15px 0px 10px;
+  width:187px;
+  text-align:center;
+  height:47px;
+}
+header div.wrap nav.top2 .vb{
+  width:70%;
+  display:flex;
+  justify-content:space-between;
+}
+header div.wrap nav.top2 h1 a {
+  padding:0 15px;
+  line-height:47px;
+  display:block;
+  font-weight:389;
+  font-size:0;
+  width:100%;
+  height:100%;
+  background-image:url(../img/go.svg);
+  overflow:hidden;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+header div.wrap nav.top2 .gnb{
+  display:flex;
+  margin-left:10px;
+  /*! transform:translateX(-168px); */
+}
+header div.wrap nav.top2 .gnb>li:nth-child(1){
+  border-bottom:7px solid #3480c4;
+}
+header div.wrap nav.top2 .gnb>li{
+  
+}
+ header div.wrap> nav.top2 .gnb>li:hover{
+  font-weight:bold;
+}
+header div.wrap nav.top2 .gnb>li:not(:first-child):hover{
+  border-bottom:7px solid #3480c4;
+}
+header div.wrap nav.top2 .gnb> li> a{
+  padding:0 15px;
+  line-height:4.7;
+  display:block;
+  font-size:17px;
+  width:120px;
+  text-align:center;
+  color:rgba(0, 0, 0, 0.8);
+  box-sizing:border-box;
+}
+header div.wrap nav.top2 form{
+  margin-right:10px;
+  height:43%;
+  line-height:25px;
+  transform:translateY(21px);
+  width:23%;
+  border:3px solid #e6e6e6;
+  border-radius:15px;
+}
+header div.wrap nav.top2 form select{
+  background-image:url(../img/po.svg);
+  background-position:right;
+  background-repeat:no-repeat;
+  background-size:contain;
+  width:64px;
+  border:none;
+  line-height:22px;
+  color:#333; 		
+  background-color:transparent;
+  transform:translateX(11px);
+}
+header div.wrap nav.top2 form select option{
+}
+header div.wrap nav.top2 form input{
+  width:37%;
+  height:34px;
+  border:none;
+  transform:translateY(1px);
+  transform:translateX(11px);
+}
+header div.wrap nav.top2 form img{
+  position:absolute;
+  width:17px;
+  height:13px;
+  background-image:url(../img/yo.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  right:39px;
+  top:11px;
+}
+header div.wrap nav.top2 form a{
+  font-size:0;
+}
+header div.wrap nav.top2 form>a{  
+  position:absolute;
+  width:16px;
+  height:15px;
+  right:16px;
+  top:8px;
+  background-image:url(../img/do.png);
+  background-position:center;
+  background-size:26px;
+  background-repeat:no-repeat;
+}
+header div.wrap nav.top2 form a span{
+}
+header div.wrap nav.top2 form a span:before{
+}
+.p{
+  font-size:12px;
+}
